@@ -1,0 +1,173 @@
+.first{
+    background-color: #4087F9;
+}
+
+nav{
+    flex-direction: column;
+}
+
+.icon{
+    display: flex;
+}
+
+.vr{
+    width: 10px;
+    height: auto;
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color:  #4087F9;
+}
+
+.sell-icon{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.income{
+    padding-left: 20px;
+}
+
+.nominal-income{
+    font-size: 36px;
+}
+
+.buy-icon{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.outcome{
+    padding-left: 20px;
+}
+
+.nominal-outcome{
+    font-size: 36px;
+}
+
+.container-card{
+    display: flex;
+}
+
+.card-selling{
+    width: 400px;
+    height: 200px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 100px;
+    border-radius: 5px;
+    background: #4087F9;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-buying{
+    width: 400px;
+    height: 200px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 100px;
+    border-radius: 5px;
+    background: #4087F9;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.user-control-icon{
+    margin-top: 20px;
+}
+
+.user-control-icon:hover{
+    background-color: #4087F9;
+    border-radius: 5px;
+}
+
+.inventory-icon{
+    margin-top: 20px;
+}
+
+.inventory-icon:hover{
+    background-color: #4087F9;
+    border-radius: 5px;
+}
+
+.customer-icon{
+    margin-top: 20px;
+}
+
+.customer-icon:hover{
+    background-color: #4087F9;
+    border-radius: 5px;
+}
+
+.home-icon{
+    margin-top: -80px;
+    margin-left: 20px  ;
+}
+
+.log-icon{
+    margin-left: 1105px;
+    width: 50px;
+    height: 50px;
+}
+
+.table{
+    margin-top: 20px
+}
+
+.bg-login{
+    background-color: #4087F9;
+}
+
+.box-login{
+    width: 400px;
+    height: 410px;
+    background: aliceblue;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: 45px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.logo-login{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.form-login{
+    margin: 1rem;
+    margin-top: 3rem;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.button-login{
+    background-color: #4087F9;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 11rem;
+}
+
+.usn{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pwd{
+    margin-left: 1rem;
+}
