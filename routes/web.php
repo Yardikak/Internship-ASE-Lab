@@ -16,3 +16,41 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::view('/history', 'history');
+
+Route::prefix('administrator')->group(function () {
+    Route::get('/home', function () {
+        return view('home');
+    })-> name ('home');
+
+    Route::get('/history', function () {
+        return view('history') ;
+    })-> name ('user-control');
+
+    Route::get('/inventory', function () {
+        return view('inventory');
+    })-> name ('inventory');
+
+    Route::get('/login', function () {
+        return view('login');
+    })-> name ('login');
+});
+
+Route::prefix('manager')->group(function () {
+    Route::get('/home', function () {
+        return view('home');
+    })-> name ('home');
+    
+    Route::get('/user-control', function () {
+        return view('userControl');
+    })-> name ('user-control');
+
+    Route::get('/inventory', function () {
+        return view('inventory');
+    })-> name ('inventory');
+
+    Route::get('/login', function () {
+        return view('login');
+    })-> name ('login');
+});
