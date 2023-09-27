@@ -35,6 +35,10 @@ Route::prefix('administrator')->group(function () {
     Route::get('/login', function () {
         return view('login');
     })-> name ('login');
+
+    Route::get('/customer', function () {
+        return view('customer');
+    })-> name ('customer');
 });
 
 Route::prefix('manager')->group(function () {
@@ -53,4 +57,8 @@ Route::prefix('manager')->group(function () {
     Route::get('/login', function () {
         return view('login');
     })-> name ('login');
+
+    Route::get('/customer', function () {
+        return view('customer');
+    })-> name ('customer');
 });

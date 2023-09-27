@@ -2,7 +2,7 @@
     background-color: #4087F9;
 }
 
-nav{
+.nav-layout{
     flex-direction: column;
 }
 
@@ -116,10 +116,6 @@ nav{
     height: 50px;
 }
 
-.table{
-    margin-top: 20px
-}
-
 .bg-login{
     background-color: #4087F9;
 }
@@ -170,4 +166,43 @@ nav{
 
 .pwd{
     margin-left: 1rem;
+}
+
+.nav-home{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.user-control-icon-home{
+    height: 5rem;
+    width: 5rem;
+}
+
+.user-control-icon-home:hover{
+    background-color: #4087F9;
+    border-radius: 5px;
+}
+
+.inventory-icon-home{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.inventory-icon-home:hover{
+    background-color: #4087F9;
+    border-radius: 5px;
+}
+
+.customer-icon-home{
+    height: 5rem;
+    width: 5rem;
+}
+
+.customer-icon-home:hover{
+    background-color: #4087F9;
+    border-radius: 5px;
 }

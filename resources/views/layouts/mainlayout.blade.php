@@ -13,7 +13,7 @@
 
 <body>
     <div class="icon">
-        <nav>
+        <nav class="nav-layout">
             <a href="{{ route('user-control') }}">
                 <svg class="user-control-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
                     viewBox="0 0 50 50" fill="none">
